@@ -37,12 +37,20 @@
       background: rgba(26,58,42,0.92);
       backdrop-filter: blur(10px);
     }
-    .nav-logo {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.5rem; font-weight: 900;
-      color: var(--white); letter-spacing: -0.5px;
-    }
-    .nav-logo span { color: var(--amber); }
+    .nav-logo-link {
+  display: flex; align-items: center; gap: 0.6rem;
+  text-decoration: none;
+}
+.nav-logo-img {
+  height: 42px; width: 42px;
+  object-fit: contain;
+}
+.nav-logo-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem; font-weight: 900;
+  color: var(--white); letter-spacing: -0.5px;
+}
+.nav-logo-text span { color: var(--amber); }
     nav a {
       color: rgba(255,255,255,0.75);
       text-decoration: none; font-size: 0.9rem; font-weight: 500;
@@ -266,7 +274,7 @@
     }
   </style>
 </head>
-<body>
+<body id="top">
 
   <!-- NAV -->
   <nav>
