@@ -1,1 +1,1 @@
-AIzaSyDI5I7cIKilio47FEArqGU9Ya-Zj4ydfYk
+window.GOOGLE_MAPS_API_KEY = 'AIzaSyDI5I7cIKilio47FEArqGU9Ya-Zj4ydfYk';
